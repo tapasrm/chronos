@@ -7,8 +7,6 @@ services:
     container_name: chronos-backend
     expose:
       - "8080"
-    ports:
-      - "8080:8080"  # optional: expose externally for testing
     restart: unless-stopped
 
   frontend:

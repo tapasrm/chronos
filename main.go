@@ -119,11 +119,11 @@ func main() {
 		w.Write([]byte("OK"))
 	}).Methods("GET")
 
-	// handler := cronmgr.EnableCORS(router)
-	// handler = securityHeadersMiddleware(handler)
+	handler := cronmgr.EnableCORS(router)
+	handler = securityHeadersMiddleware(handler)
 
 	slog.Info("Server starting", "address", ":8080")
-	if err := http.ListenAndServe(":8080", router); err != nil {
+	if err := http.ListenAndServe(":8080", handler); err != nil {
 		slog.Error("Server failed to start", "error", err)
 		os.Exit(1)
 	}
