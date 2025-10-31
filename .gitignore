@@ -1,0 +1,44 @@
+# Binaries for programs and plugins
+*.exe
+*.test
+*.prof
+
+# Local database file
+cron_jobs.db
+
+# Dependency directories
+node_modules/
+frontend/node_modules/
+
+# Build artifacts
+dist/
+dist-ssr/
+build/
+frontend/dist/
+frontend/build/
+
+# Editor/IDE specific files
+.vscode/
+.idea/
+.DS_Store
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Logs and temporary files
+*.log
+logs/
+tmp/
+
+# Bun specific
+bun.lockb
+frontend/bun.lockb
+
+# Other
+.wrangler/
+.nitro/
+.tanstack/
+count.txt
+*.local

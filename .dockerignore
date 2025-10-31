@@ -1,0 +1,23 @@
+# Git files
+.git
+.gitignore
+
+# Build artifacts
+build/
+*.db
+*.db-journal
+
+# Frontend
+frontend/dist
+frontend/node_modules
+frontend/.vite
+
+# IDE
+.idea
+.vscode
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
