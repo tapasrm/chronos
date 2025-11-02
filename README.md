@@ -16,7 +16,7 @@ Optionally, Chronos can persist this SQLite file to Azure Blob Storage for durab
 
 ## 🛠️ Setup
 
-You can run Chronos in two ways — using Docker (recommended for production) or locally for development.
+You can run Cronos in two ways — using Docker (recommended for production) or locally for development.
 
 ### 🐳 Option 1: Run with Docker
 If you prefer a one-command setup without installing Go or Node:
