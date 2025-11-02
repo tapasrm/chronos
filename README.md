@@ -1,6 +1,6 @@
-# Chronos – CRON Manager UI
+# Cronos – CRON Manager UI
 
-Chronos is a web-based CRON job manager built with Go and React.
+Cronos is a web-based CRON job manager built with Go and React.
 It provides a simple UI to create, update, and manage scheduled jobs.
 
 By default, jobs are stored in-memory and synced to a local SQLite file.
